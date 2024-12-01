@@ -14,6 +14,48 @@ This repository is dedicated to exploring the critical phase of **requirement an
 
 ---
 
+## Types of Requirements
+
+In software development, requirements are broadly categorized into **Functional Requirements** and **Non-functional Requirements**. Both types are essential to ensure the system meets the users' needs and operates effectively.
+
+---
+
+### Functional Requirements
+
+**Functional Requirements** define what the system should do. These are the specific behaviors or functions that the system must perform to meet the needs of the users and stakeholders.  
+
+#### Examples for a Booking Management System:
+1. **Search Functionality**  
+   - The system must allow users to search for available rooms by date, location, and room type.
+2. **Room Booking**  
+   - The system must enable users to book rooms by entering their personal details and payment information.
+3. **User Registration and Login**  
+   - The system must provide users with the ability to register an account and log in securely.
+4. **Booking Cancellation**  
+   - Users must be able to cancel their reservations and receive a refund as per the cancellation policy.
+5. **Payment Integration**  
+   - The system must support multiple payment methods, such as credit cards, PayPal, and bank transfers.
+
+---
+
+### Non-functional Requirements
+
+**Non-functional Requirements** define how the system should perform its functions. These requirements often relate to the quality attributes of the system, such as performance, security, and usability.
+
+#### Examples for a Booking Management System:
+1. **Performance**  
+   - The system should handle up to 1,000 concurrent users without any noticeable decrease in performance.
+2. **Reliability**  
+   - The system must ensure 99.9% uptime availability over a 12-month period.
+3. **Scalability**  
+   - The system should be scalable to accommodate future expansions, such as adding new locations or services.
+4. **Security**  
+   - All user data, including personal and payment information, must be encrypted using industry-standard protocols.
+5. **Usability**  
+   - The system should provide an intuitive and user-friendly interface, allowing users to complete a booking in no more than five steps.
+
+---
+
 ## Why is Requirement Analysis Important?
 
 1. **Prevents Miscommunication**
