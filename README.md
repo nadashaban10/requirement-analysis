@@ -6,11 +6,6 @@ Welcome to the **Requirement Analysis in Software Development** repository!
 
 This repository is dedicated to exploring the critical phase of **requirement analysis** in the software development lifecycle. Here, we aim to analyze, document, and understand the requirements of a software project, which serves as the foundation for successful development.  
 
-### Purpose
-- Provide insights into the process of gathering and analyzing requirements.
-- Highlight the importance of clear and well-documented requirements in delivering high-quality software.
-- Serve as a structured resource for understanding and implementing requirement analysis techniques.
-
 ---
 
 ## What is Requirement Analysis?
@@ -21,53 +16,64 @@ This repository is dedicated to exploring the critical phase of **requirement an
 
 ## Why is Requirement Analysis Important?
 
-Requirement Analysis is a cornerstone of successful software development. Below are three key reasons why it is critical in the SDLC:
-
-1. **Prevents Miscommunication**  
-   Miscommunication between stakeholders and the development team can lead to incorrect or incomplete implementations. Requirement analysis bridges this gap by ensuring that all requirements are well-documented, agreed upon, and clearly communicated.
-
-2. **Reduces Development Costs**  
-   Identifying potential issues or conflicts in the early stages of development is far less expensive than addressing them during or after implementation. Requirement analysis minimizes the risk of costly rework by detecting and addressing problems before development begins.
-
-3. **Ensures Project Success**  
-   By aligning the software's functionality with the stakeholders' needs and the business goals, requirement analysis increases the likelihood of delivering a successful project. It establishes a clear roadmap, ensuring that the development process is efficient and focused.
+1. **Prevents Miscommunication**
+2. **Reduces Development Costs**
+3. **Ensures Project Success**
 
 ---
 
 ## Key Activities in Requirement Analysis
 
-- **Requirement Gathering**  
-  Collecting initial information about the project by engaging with stakeholders, reviewing existing systems, and understanding business goals. 
-
-- **Requirement Elicitation**  
-  Engaging with stakeholders to uncover their explicit and implicit requirements using interviews, surveys, and workshops.
-
-- **Requirement Documentation**  
-  Creating a structured record of the requirements, including functional and non-functional requirements.
-
-- **Requirement Analysis and Modeling**  
-  Analyzing and modeling requirements using techniques like flowcharts, UML diagrams, and wireframes.
-
-- **Requirement Validation**  
-  Ensuring that the documented requirements accurately reflect the stakeholders' needs.
+1. **Requirement Gathering**  
+2. **Requirement Elicitation**  
+3. **Requirement Documentation**  
+4. **Requirement Analysis and Modeling**  
+5. **Requirement Validation**
 
 ---
 
 ## Use Case Diagrams
 
-**Use Case Diagrams** are a type of UML diagram used to visually represent the interactions between users (actors) and the system. These diagrams help identify the functionality the system must support and provide clarity on user roles and system goals.
-
-### Benefits of Use Case Diagrams:
-- Clearly outline system functionality.
-- Identify interactions between different users and the system.
-- Serve as a communication tool between stakeholders and developers.
-- Help in defining the system's scope and functionality.
-
-### Example: Use Case Diagram for a Booking System
-
-The use case diagram below illustrates a booking system with two main actors: **Customer** and **Admin**. Key use cases include **Search Rooms**, **Make Reservation**, **Cancel Booking**, and **Manage Rooms**.
-
+**Use Case Diagrams** visually represent the interactions between users and the system.  
 ![Booking System Use Case Diagram](alx-booking-uc.png)
 
 ---
 
+## Acceptance Criteria
+
+### What are Acceptance Criteria?
+
+**Acceptance Criteria** are a set of predefined conditions that a software feature must satisfy to be considered complete and acceptable by the stakeholders. These criteria define the scope and ensure that the development team and stakeholders have a shared understanding of what constitutes a successful implementation.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+- **Clarity and Focus**: Acceptance criteria provide a clear and concise definition of the requirements, ensuring that the development team knows exactly what needs to be delivered.  
+- **Alignment**: They ensure alignment between stakeholders and the development team, reducing the risk of misunderstandings.  
+- **Testing and Validation**: Acceptance criteria act as a benchmark for testing and validating the feature before deployment.  
+- **Risk Mitigation**: By defining expectations upfront, acceptance criteria help identify potential issues early in the development cycle.  
+
+---
+
+### Example: Acceptance Criteria for a Checkout Feature in a Booking Management System
+
+Feature: **Checkout Process**  
+
+#### Acceptance Criteria:
+1. **Payment Method Selection**  
+   - The user must be able to select a payment method from the following options: Credit Card, PayPal, and Bank Transfer.  
+   - If no payment method is selected, the user should be prompted with an error message: *"Please select a payment method."*  
+
+2. **Order Summary Display**  
+   - The user must see an order summary, including the total cost, selected room(s), and booking dates, before proceeding to payment.  
+   - The order summary must be updated dynamically if the user changes their booking details.
+
+3. **Successful Payment Confirmation**  
+   - After completing the payment, the system must display a confirmation message: *"Your booking is confirmed!"*  
+   - The system must send a confirmation email to the user's registered email address, including booking details and payment receipt.  
+
+4. **Error Handling**  
+   - If payment fails, the user must see a detailed error message explaining the issue and options to retry or choose a different payment method.
+
+---
+
+With well-defined **Acceptance Criteria**, both stakeholders and developers have a clear understanding of the goals and success metrics for each feature, ensuring smooth and efficient development.
